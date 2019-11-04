@@ -1,0 +1,14 @@
+body{
+    color: brown;
+    width: 800px;
+    margin: 0 auto;
+    padding: 100px 50px;
+    font-family: 'Open Sans', sans-serif;
+
+};
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+}
