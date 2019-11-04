@@ -14,10 +14,31 @@ body{
 
 .ghost-input, h1{
     width: 100%;
-    padding: 15px 10px;
+    padding: 15px 30px;
     margin: 30px 0;
     font-family:'Open Sans', sans-serif;
     color: #4b545f;
     border: none;
     outline: none;
+
+
+}
+
+.ghost-input:focus{
+    border-bottom: 1px solid #ddd;
+}
+
+.ghost-buttom{
+    border: 2px solid #ddd;
+    width: 100%;
+    padding: 10px 15px;
+    transition: all .5s ease-in-out;
+}
+
+.ghost-buttom:hover{
+    border: 2px solid #515151;
+}
+
+h1{
+    color: rgb(184, 90, 90);
 }
