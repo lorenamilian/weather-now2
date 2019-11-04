@@ -1,8 +1,12 @@
 const express = require('express')
+
 const app = express()
  
 //setting view engine
 app.set('view engine', 'ejs')
+
+//middleware
+app.use(express.static(',/public'));
 
 //ROUTES
  
