@@ -1,14 +1,23 @@
 body{
-    color: brown;
     width: 800px;
     margin: 0 auto;
     padding: 100px 50px;
     font-family: 'Open Sans', sans-serif;
 
-};
+}
 
 .container{
     width: 600px;
     margin: 0 auto;
-    padding: 30px;
+
+}
+
+.ghost-input, h1{
+    width: 100%;
+    padding: 15px 10px;
+    margin: 30px 0;
+    font-family:'Open Sans', sans-serif;
+    color: #4b545f;
+    border: none;
+    outline: none;
 }
