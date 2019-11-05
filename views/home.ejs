@@ -15,7 +15,14 @@
           <input class="ghost-buttom" type="submit" value="Weather Now"  style="font-size: 20px;" >
       </form>
 
-    <h1>The Weather in New York is 75 C</h1>
+      <% if(error){ %>
+            <h1><%= error %></h1>
+        <% } else { %>
+           <h1><%= weather %></h1>
+      <% } %>
+
+   
+    
 </div>
 
 </body>

@@ -1,8 +1,8 @@
 # weather-now2
 
-get user input of city
+get user input of city X
 
-get weather                 imput
+get weather imput
    if error let hte user know there was an error and try agin
 
    if there is no weather availble err try aging
